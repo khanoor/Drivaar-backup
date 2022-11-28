@@ -18,6 +18,7 @@ class ViewDocumentState extends State<ViewDocument> {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
       appBar: AppBar(
+        backgroundColor: Color(0xff274C77),
         title: Text(widget.name),
       ),
       body: Center(
