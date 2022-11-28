@@ -1584,68 +1584,68 @@ class AddAccidentReportState extends State<AddAccidentReport> {
                 style: TextStyle(color: Colors.white, fontSize: 16),
               )),
         ),
-        sixth == true
-            ? Container(
-                padding: EdgeInsets.only(left: 0, right: 0),
-                margin: EdgeInsets.only(top: 4),
-                child: Column(
-                  children: [
-                    Row(
-                      children: [
-                        Checkbox(
-                          value: this.isCheck1,
-                          onChanged: (bool? value) {
-                            setState(() {
-                              this.isCheck1 = value!;
-                            });
-                          },
-                        ),
-                        Text("Third Party Vehicle Collision: Complete section")
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Checkbox(
-                          value: this.isCheck2,
-                          onChanged: (bool? value) {
-                            setState(() {
-                              this.isCheck2 = value!;
-                            });
-                          },
-                        ),
-                        Text("Third Party Property Damage: Complete section")
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Checkbox(
-                          value: this.isCheck3,
-                          onChanged: (bool? value) {
-                            setState(() {
-                              this.isCheck3 = value!;
-                            });
-                          },
-                        ),
-                        Text("Theft to Fleet Vehicle: Complete Section")
-                      ],
-                    ),
-                    Row(
-                      children: [
-                        Checkbox(
-                          value: this.isCheck4,
-                          onChanged: (bool? value) {
-                            setState(() {
-                              this.isCheck4 = value!;
-                            });
-                          },
-                        ),
-                        Text("Fleet Vehicle Damage: Complete section")
-                      ],
-                    )
-                  ],
-                ),
+        // sixth == true
+        Container(
+          padding: EdgeInsets.only(left: 0, right: 0),
+          margin: EdgeInsets.only(top: 4),
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Checkbox(
+                    value: this.isCheck1,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        this.isCheck1 = value!;
+                      });
+                    },
+                  ),
+                  Text("Third Party Vehicle Collision: Complete section")
+                ],
+              ),
+              Row(
+                children: [
+                  Checkbox(
+                    value: this.isCheck2,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        this.isCheck2 = value!;
+                      });
+                    },
+                  ),
+                  Text("Third Party Property Damage: Complete section")
+                ],
+              ),
+              Row(
+                children: [
+                  Checkbox(
+                    value: this.isCheck3,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        this.isCheck3 = value!;
+                      });
+                    },
+                  ),
+                  Text("Theft to Fleet Vehicle: Complete Section")
+                ],
+              ),
+              Row(
+                children: [
+                  Checkbox(
+                    value: this.isCheck4,
+                    onChanged: (bool? value) {
+                      setState(() {
+                        this.isCheck4 = value!;
+                      });
+                    },
+                  ),
+                  Text("Fleet Vehicle Damage: Complete section")
+                ],
               )
-            : Container(),
+            ],
+          ),
+        ),
+        // : Container(),
         SizedBox(
           height: 10,
         ),
