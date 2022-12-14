@@ -32,12 +32,12 @@ class _AnswerViewState extends State<AnswerView> {
   // }
 
   Future<String?> Submit() async {
-    var response =
-        await http.post(Uri.parse("https://www.drivaar.com/api/inspection_data.php"),
-            body: ({
-              "action": "inspection_data",
-              "auth_key": global_auth_key,
-            }));
+    var response = await http.post(
+        Uri.parse("https://www.drivaar.com/api/inspection_data.php"),
+        body: ({
+          "action": "inspection_data",
+          "auth_key": global_auth_key,
+        }));
     var convert_data_to_json = json.decode(response.body);
     var message = convert_data_to_json['data']['message'];
     if (response.statusCode == 200 && convert_data_to_json['status'] == 1) {
@@ -74,7 +74,7 @@ class _AnswerViewState extends State<AnswerView> {
     return Scaffold(
       appBar: AppBar(
         title: Text(" Answer Review"),
-        
+        backgroundColor: Color(0xff274C77),
       ),
       body: Stack(
         children: <Widget>[

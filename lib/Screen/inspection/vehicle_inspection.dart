@@ -45,7 +45,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
         bottomNavigationBar: Container(
           height: 66,
           decoration: BoxDecoration(
-            color: Color(0xff274C77),
+            color: Theme.of(context).primaryColor,
             borderRadius: const BorderRadius.only(
               topLeft: Radius.circular(20),
               topRight: Radius.circular(20),
@@ -298,7 +298,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   year,
                                   style: TextStyle(
                                     fontSize: 16,
-                                    color: Color(0xFF274C77),
+                                    color: Color(0xff274C77),
                                     fontWeight: FontWeight.w600,
                                   ),
                                 ),
@@ -313,7 +313,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   icon: Icon(
                                     Icons.calendar_today_rounded,
                                     size: 30,
-                                    color: Color(0xFF274C77),
+                                    color: Color(0xff274C77),
                                   ),
                                 ),
                               ),
@@ -374,7 +374,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "February",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -397,7 +397,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "March",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -420,7 +420,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "April",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -443,7 +443,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "May",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -466,7 +466,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "June",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -489,7 +489,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "July",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -512,7 +512,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "August",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -535,7 +535,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "September",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -558,7 +558,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "October",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -581,7 +581,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "November",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),
@@ -605,7 +605,7 @@ class _vehicle_inspectionState extends State<vehicle_inspection> {
                                   child: const Text(
                                     "December",
                                     style: TextStyle(
-                                        color: Color(0xFF274C77), fontSize: 16),
+                                        color: Color(0xff274C77), fontSize: 16),
                                   ),
                                   style: ElevatedButton.styleFrom(
                                     minimumSize: const Size(100, 50),

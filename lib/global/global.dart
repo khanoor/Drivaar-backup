@@ -2,8 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-Map<int, Color> color = {
-};
+Map<int, Color> color = {};
 
 Color app_color = const Color(0xff274C77);
 
